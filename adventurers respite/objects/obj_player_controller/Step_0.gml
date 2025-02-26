@@ -17,3 +17,8 @@ if (_can_move && _hspd != 0 || _vspd != 0)	{
 	y = y + _yadd;
 }
 
+if(place_meeting(x,y,obj_interactable)){
+	_is_touching = true;
+}
+else
+	_is_touching = false;
