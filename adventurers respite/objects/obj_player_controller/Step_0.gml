@@ -11,10 +11,11 @@ var _vspd = _down - _up;
 if (_can_move && _hspd != 0 || _vspd != 0)	{
 	   
 	var _dir = point_direction(0, 0, _hspd, _vspd);
-	var _xadd = lengthdir_x(_spd, _dir);
 	var _yadd = lengthdir_y(_spd, _dir);
-	x = x + _xadd;
+	var _xadd = lengthdir_x(_spd, _dir);
+	
 	y = y + _yadd;
+	x = x + _xadd;
 }
 
 if(place_meeting(x,y,obj_interactable)){

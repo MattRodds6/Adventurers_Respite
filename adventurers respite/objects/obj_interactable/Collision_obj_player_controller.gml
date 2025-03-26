@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(ui_obj != noone) 
 	ui_obj.ui_text_inject = interact_text;
-if(keyboard_check(ord("E"))){
+if(keyboard_check_pressed(ord("E"))){
 	_is_interacting = true;
 	//run script
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_sprite_placeholder",
+  "name": "Object11",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],

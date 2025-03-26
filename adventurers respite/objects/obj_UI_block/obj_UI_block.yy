@@ -5,7 +5,6 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,17 +27,15 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spr_background","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"undefined","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spr_icon","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"undefined","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_draw_xoffset","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"32","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_textColor","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"$FF000000","varType":7,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_font","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"fnt_written","varType":5,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_text","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":2,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_text","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"\"","varType":2,},
   ],
   "solid": false,
-  "spriteId": {
-    "name": "spr_temp_ui",
-    "path": "sprites/spr_temp_ui/spr_temp_ui.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
